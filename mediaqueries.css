@@ -89,3 +89,37 @@
         text-align: justify;
     }
     }
+
+    /* Ensure the menu has the same animation styles in media queries */
+@media screen and (max-width: 1200px) {
+    /* Other styles... */
+
+    .menu-links {
+        opacity: 0; /* Set initial opacity */
+        transform: translateY(-20px); /* Start slightly above */
+        transition: opacity 0.8s ease, transform 0.8s ease; /* Animate both */
+        visibility: hidden; /* Initially hidden */
+    }
+
+    .menu-links.open {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Slide into view */
+        visibility: visible; /* Make visible */
+    }
+}
+
+/* Repeat the styles for smaller screens if necessary */
+@media screen and (max-width: 600px) {
+    .menu-links {
+        opacity: 0; /* Set initial opacity */
+        transform: translateY(-20px); /* Start slightly above */
+        transition: opacity 0.8s ease, transform 0.8s ease; /* Animate both */
+        visibility: hidden; /* Initially hidden */
+    }
+
+    .menu-links.open {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Slide into view */
+        visibility: visible; /* Make visible */
+    }
+}
