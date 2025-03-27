@@ -1,6 +1,6 @@
 <h1>💼 Portfolio Website</h1>
 
-Here I posted the code for my first portfolio website, I rented the domain from Hostinger and now I have my website **ivanmorhun.com** hooray!!!!🙌
+Here I posted the code for my first portfolio website, I rented the domain from Hostinger and now I have my own website **ivanmorhun.com** hooray!!!!🙌
 
 Here's a link:  👉 https://www.ivanmorhun.com 👈
 
